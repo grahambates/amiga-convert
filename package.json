@@ -1,0 +1,34 @@
+{
+  "name": "amiga-convert",
+  "version": "1.0.0",
+  "description": "Converts images to Amiga OCS/ECS 12-bit color with palette reduction and dithering.",
+  "main": "amiga-convert.js",
+  "bin": {
+    "amiga-convert": "./amiga-convert.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/grahambates/amiga-convert.git"
+  },
+  "keywords": [
+    "amiga",
+    "graphics",
+    "retro",
+    "demoscene",
+    "pixelart"
+  ],
+  "author": "Graham Bates",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/grahambates/amiga-convert/issues"
+  },
+  "homepage": "https://github.com/grahambates/amiga-convert#readme",
+  "dependencies": {
+    "image-q": "^4.0.0",
+    "sharp": "^0.34.5"
+  }
+}
