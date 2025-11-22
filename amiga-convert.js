@@ -494,11 +494,11 @@ Options:
                        Default: 8
 
 Examples:
-  node amiga-convert.js photo.jpg output.png --colors 32
-  node amiga-convert.js photo.jpg output.png --colors 64 --quant wuquant
-  node amiga-convert.js photo.jpg output.png --colors 128 --dither atkinson --dither-amount 0.75
-  node amiga-convert.js sprite.png output.png --colors 16 --dither ordered --bayer-size 4
-  node amiga-convert.js image.jpg output.png --colors 256 --quant median-cut --dither none
+  amiga-convert photo.jpg output.png --colors 32
+  amiga-convert photo.jpg output.png --colors 64 --quant wuquant
+  amiga-convert photo.jpg output.png --colors 128 --dither atkinson --dither-amount 0.75
+  amiga-convert sprite.png output.png --colors 16 --dither ordered --bayer-size 4
+  amiga-convert image.jpg output.png --colors 256 --quant median-cut --dither none
 `);
     process.exit(1);
   }
